@@ -1,0 +1,7 @@
+[package]
+name = "stanza-server"
+version = "0.1.0"
+authors = ["Seth Samuel <sethfsamuel@gmail.com>"]
+
+[dependencies]
+iron = "*"
