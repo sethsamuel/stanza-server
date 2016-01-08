@@ -8,4 +8,5 @@ RUN apt-get update \
 
 
 COPY target/release/stanza-server /stanza-server
-CMD ["/stanza-server"]
+
+CMD /stanza-server
