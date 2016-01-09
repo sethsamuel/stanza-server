@@ -1,0 +1,25 @@
+{
+	"project": "stanza-server",
+	"services": [
+		{
+			"id": "server",
+			"apps": [
+				{
+					"id": "http",
+					"domain": {
+						"uri": "sethfsamuel.sloppy.zone",
+						"type": "HTTP"
+					},
+					"mem": 128,
+					"image": "sethfsamuel/stanza-server",
+					"instances": 1,
+					"port_mappings": [
+						{
+							"container_port": 3003
+						}
+					]
+				}
+			]
+		}
+	]
+}
