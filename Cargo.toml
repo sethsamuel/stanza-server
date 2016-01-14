@@ -3,5 +3,9 @@ name = "stanza-server"
 version = "0.1.0"
 authors = ["Seth Samuel <sethfsamuel@gmail.com>"]
 
+[dependencies.iron]
+version = "*"
+default-features = false
+
 [dependencies]
-iron = "*"
+rustc-serialize = "0.3"
