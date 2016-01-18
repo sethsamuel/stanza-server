@@ -5,7 +5,9 @@ authors = ["Seth Samuel <sethfsamuel@gmail.com>"]
 
 [dependencies.iron]
 version = "*"
-default-features = false
 
 [dependencies]
 rustc-serialize = "0.3"
+
+[dependencies.hyper]
+version = "0.7.2"
